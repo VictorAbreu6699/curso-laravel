@@ -34,6 +34,6 @@ Route::get('/teste/{p1}/{p2}', 'TesteController@teste')->name('site.rota1');
 
 
 
-ROute::fallback(function(){
+Route::fallback(function(){
     return 'A página solicitada não existe<br> <a href="'.route('site.index').'">Clique aqui</a> para ir a página inicial';
 });

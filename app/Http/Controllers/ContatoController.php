@@ -11,4 +11,7 @@ class ContatoController extends Controller
         var_dump($_POST);
         return view('site.contato.index');
     }
+
+    
 }
+
